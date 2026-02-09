@@ -41,11 +41,11 @@ int count_lowercase_letters(char *input) {
 
   if (lowercase_letters == 42) {
     printf("wooo\n");
-	puts(input[lowercase_letters]);
+	puts(input[0x42]);
   }
   if (lowercase_letters == 0x42) {
     printf("WOOO!\n");
-	puts(input[lowercase_letters]);
+	puts(input[0x42]);
   }
 
   return lowercase_letters;
